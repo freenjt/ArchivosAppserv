@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE>formulario.html</TITLE>
+<script type="text/javascript">
+	function mostrar(){
+		var nom=document.getElementById('nombre');
+		var apel=document.getElementById('apellidos');
+		alert("Nombres= "+nom.value+" "+apel.value);
+	}
+</script>
+</HEAD>
+<BODY>
+<FORM METHOD="POST" ACTION="prueba.php">
+Nombre<br>
+<INPUT TYPE="TEXT" NAME="nombre"><br>
+Apellidos<br>
+<INPUT TYPE="TEXT" NAME="apellidos"><br>
+<INPUT TYPE="button" value="mostrar"onclick="mostrar()">
+</FORM>
+</BODY>
+</HTML>
