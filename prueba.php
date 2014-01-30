@@ -11,6 +11,7 @@ setcookie("galleta", "hola mundo");
 		oc.value="enviado";
 	}
 </script>
+juhkjhkjjh
 </HEAD>
 <BODY>
 <form id="formulario" name="formulario" action="probando.php" method="post">
