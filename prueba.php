@@ -14,7 +14,8 @@ setcookie("galleta", "hola mundo");
 </HEAD>
 <BODY>
 <form id="formulario" name="formulario" action="probando.php" method="post">
-Escribir cookie:<input type="text" name="ejemplo" id="ejemplo">	
+Escribir cookie:<input type="text" name="ejemplo" id="ejemplo">
+<input type="hidden" name="oculto" id="oculto" />
 <input type="submit" value="Enviar cookie">
 </form>
 <div id="contenido"></div>
